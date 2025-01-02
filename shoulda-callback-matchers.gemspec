@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.extensions    = 'ext/mkrf_conf.rb'
 
   s.add_dependency('activesupport',           '>= 3')
+  s.add_dependency('ostruct', '~> 0.6.1')
 
   s.add_development_dependency('appraisal',   '~> 2.1.0')
   s.add_development_dependency('aruba')
